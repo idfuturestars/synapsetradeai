@@ -1,0 +1,24 @@
+# .replit
+run = "python main.py"
+language = "python3"
+entrypoint = "main.py"
+
+[env]
+FLASK_APP = "main.py"
+FLASK_ENV = "production"
+SECRET_KEY = "sikat-tradeai-secret-2024"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["python", "main.py"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[auth]
+pageEnabled = false
+buttonEnabled = true
