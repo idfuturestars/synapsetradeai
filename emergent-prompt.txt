@@ -1,0 +1,19 @@
+Deploy SynapseTrade AI™ - Advanced AI-Powered Trading Intelligence Platform
+
+This is a production-ready trading platform featuring:
+- Real-time market data analysis and technical indicators
+- AI-powered sentiment analysis using TextBlob/NLP
+- Machine learning price predictions
+- Complete backtesting engine with Sharpe ratio calculations
+- Risk management tools including position sizing
+- RESTful API with comprehensive endpoints
+- Beautiful responsive web UI
+
+Tech Stack: Flask, Python 3.10, scikit-learn, pandas, numpy, yfinance
+Database: SQLite (auto-initialized)
+Web Server: Gunicorn
+
+The app auto-initializes its database on first run and includes demo data.
+All dependencies are in requirements.txt. Ready for immediate deployment.
+
+Repository: https://github.com/idfuturestars/synapsetradeai
